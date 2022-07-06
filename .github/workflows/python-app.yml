@@ -36,7 +36,7 @@ jobs:
     - name: Testing with pytest
       run: |
         cd tests
-        ./run-tests.sh
+        pytest *.py
     - name: cleanup
       run: |
         pkill python3
