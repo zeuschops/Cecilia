@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 Logs/
-*.sqlite
+database.sqlite
 .DS_Store
